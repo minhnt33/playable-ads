@@ -101,6 +101,7 @@
     <type fullname="ObjectReturnOnDeselect" preserve="all" />
     <type fullname="ObjectShadow" preserve="all" />
     <type fullname="PauseView" preserve="all" />
+    <type fullname="PauseWebgl.WebglPause" preserve="all" />
     <type fullname="PlayAnimAfterSelect" preserve="all" />
     <type fullname="RestoreOrderLayer" preserve="all" />
     <type fullname="RotateAfterSelectTool" preserve="all" />
