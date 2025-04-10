@@ -60,15 +60,15 @@
     }
 
     var buildUrl = "Build";
-    var loaderUrl = buildUrl + "/skincare.loader.js";
+    var loaderUrl = buildUrl + "/yt-sample.loader.js";
     var config = {
-      dataUrl: buildUrl + "/skincare.data",
-      frameworkUrl: buildUrl + "/skincare.framework.js",
-        codeUrl: buildUrl + "/skincare.wasm",
+      dataUrl: buildUrl + "/yt-sample.data",
+      frameworkUrl: buildUrl + "/yt-sample.framework.js",
+        codeUrl: buildUrl + "/yt-sample.wasm",
       streamingAssetsUrl: "StreamingAssets",
-      companyName: "Gapu",
-      productName: "Skincare Time",
-      productVersion: "0.3.1",
+      companyName: "DefaultCompany",
+      productName: "youtube-playable-sample",
+      productVersion: "1.0",
       showBanner: unityShowBanner,
     };
 
@@ -236,11 +236,11 @@
     }
 
     // Path 1: Use this path if no decompression of your .wasm, .data, .js files are needed
-    // InitUnitySection();
+    InitUnitySection();
 
     // Path 2: Use this path to Load resources (.wasm, .data) that are Zipped and need to be decompressed
     // if you dont use compresseion its best to comment out Path 1 and uncomment Path 2.
-    loadResources(InitUnitySection);  // Uncomment this line to start Unity by loading zipped files
+    // loadResources(InitUnitySection);  // Uncomment this line to start Unity by loading zipped files
   </script>
 </body>
 </html>
